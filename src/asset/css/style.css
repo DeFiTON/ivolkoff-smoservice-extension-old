@@ -1,0 +1,49 @@
+body {
+    background: #FFF !important;
+    min-width: 550px;
+    min-height: 128px;
+}
+
+.paginator > span {
+    margin-left: 5px;
+    width: 31px !important;
+}
+
+.row.filter > div {
+    padding: 10px 25px;
+}
+
+.row.filter .status {
+    margin-top: 5px;
+}
+
+.sublink {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.paginator a,
+.paginator .pgSwchA {
+    font-size: 13px;
+    border: 0;
+    padding: 6px 12px 6px 12px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -khtml-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background: -moz-linear-gradient(top, #fe901b, #ff6802);
+    background: -webkit-gradient(linear, left top, left bottom, from(#fe901b), to(#ff6802));
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#fe901b, endColorstr=#ff6802, GradientType=0);
+    zoom: 1;
+    background: linear-gradient(top, #fe901b, #ff6802);
+    background-image: -o-linear-gradient(top, #fe901b, #ff6802);
+    background-image: -moz-linear-gradient(top, #fe901b, #ff6802);
+    background-image: -webkit-linear-gradient(top, #fe901b, #ff6802);
+    background-image: -ms-linear-gradient(top, #fe901b, #ff6802);
+    color: #fff;
+    border-top: 1px solid #fe8111;
+    text-shadow: 0 -1px 0 #ff6102;
+}
